@@ -1,0 +1,129 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/chaneg_role/chaneg_role",
+			"style": {
+				"navigationBarTitleText": " ",
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/confirm_role/confirm_role",
+			"style": {
+				"navigationBarTitleText": " "
+			}
+
+		}, {
+			"path": "pages/change_character/change_character",
+			"style": {
+				"navigationBarTitleText": " ",
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": " ",
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/change_pattern/change_pattern",
+			"style": {
+				"navigationBarTitleText": " ",
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/matching_success/matching_success",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/game_ready/game_ready",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/game_conduct/game_conduct",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#C8C9CA"
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+
+		}
+	    ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录"
+            }
+            
+        }
+        ,{
+            "path" : "pages/Prize_center/Prize_center",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "积分商城"
+            }
+            
+        }
+        ,{
+            "path" : "pages/receiverAddress/receiverAddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收货地址"
+            }
+            
+        }
+        ,{
+            "path" : "pages/receiverAddress/addAddress/addAddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加收货地址"
+            }
+            
+        }
+        ,{
+            "path" : "pages/receiverAddress/modify_address/modify_address",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑收货地址"
+            }
+            
+        }
+        ,{
+            "path" : "pages/set_up_room/set_up_room",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "pages/add_room/add_room",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "仁战",
+		"navigationBarBackgroundColor": "#000000",
+		"backgroundColor": "#000000"
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": " ",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "set-view": "/components/set-up-view/set-up-view"
+  }
+}

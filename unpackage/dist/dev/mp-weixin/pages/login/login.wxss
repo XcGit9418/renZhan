@@ -1,0 +1,102 @@
+
+page {
+	background: #FFFFFF;
+}
+.bugu-header {
+	padding: 60rpx 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	border-bottom: 1px solid #EDEDED;
+}
+.bugu-header image {
+	width: 140rpx;
+	height: 140rpx;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+.app-name {
+	font-size: 34rpx;
+	color: #000000;
+	font-weight: bold;
+	line-height: 2.5em;
+}
+.company {
+	font-size: 26rpx;
+	color: #888888;
+}
+.bugu-footer {
+	padding: 60rpx 40rpx;
+}
+.footer-title {
+	font-size: 32rpx;
+	color: #000000;
+	line-height: 2.5em;
+}
+.footer-content {
+	font-size: 24rpx;
+	color: #888888;
+	line-height: 2.5em;
+}
+.footer-btns {
+	padding: 60rpx 0rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.tui-modal-btn {
+	width: 44%;
+	height: 68rpx;
+	line-height: 68rpx;
+	position: relative;
+	-webkit-border-radius: 34rpx;
+	        border-radius: 34rpx;
+	font-size: 24rpx;
+	overflow: visible;
+	margin: 0;
+}
+.tui-modal-btn::after {
+	content: "";
+	position: absolute;
+	width: 200%;
+	height: 200%;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: scale(0.5, 0.5);
+	transform: scale(0.5, 0.5);
+	left: 0;
+	top: 0;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+	border: 0;
+}
+.tui-green {
+	background: #19be6b;
+	color: #fff;
+}
+.tui-green-hover {
+	background: #16ab60;
+	color: #e5e5e5;
+}
+.tui-gray {
+	background: #ededed;
+	color: #999;
+}
+.tui-gray-hover {
+	background: #d5d5d5;
+	color: #898989;
+}
+

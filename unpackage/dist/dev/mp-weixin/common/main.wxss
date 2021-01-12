@@ -1,0 +1,535 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+/* 图标大小 */
+.icon_15 {
+	width: 30rpx;
+	height: 30rpx;
+}
+.icon_20 {
+	width: 40rpx;
+	height: 40rpx;
+}
+.icon_25 {
+	width: 50rpx;
+	height: 50rpx;
+}
+.icon_30 {
+	width: 60rpx;
+	height: 60rpx;
+}
+.icon_50 {
+	width: 100rpx;
+	height: 100rpx;
+}
+/* 圆角 */
+.radius_5 {
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+}
+.radius_10 {
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+}
+.radius_15 {
+	-webkit-border-radius: 30rpx;
+	        border-radius: 30rpx;
+}
+/* 主要颜色 */
+.bg_blue{
+	background-color: #1B9AEE;
+}
+.bg_green {
+	background-color: #2fcb88;
+}
+.bg_white {
+	background-color: #fff;
+}
+.bg_grey{
+	background-color: #EEEEEE;
+}
+.bg_grey6{
+	background-color: #f6f6f6;
+}
+.bg_red{
+	background-color: #F71C3E;
+}
+/* 绿色字体 */
+.green_font{
+	color: #1BAD00;
+}
+/* 蓝色字体 */
+.blue_font {
+	color: #1B9AEE;
+}
+/* 黄色字体 */
+.yellow_font {
+	color: #EECC9B;
+}
+/* 红色字体 */
+.red_font {
+	color: #FF4545;
+}
+/* 白色字体 */
+.white_font{
+	color: #FFFFFF;
+}
+/* 灰色字体 */
+.grey_font0 {
+	color: #acacac;
+}
+.grey_font6 {
+	color: #606060;
+}
+.grey_font8 {
+	color: #888888;
+}
+.grey_font9 {
+	color: #999999;
+}
+/* 黑色字体 */
+.black_font0{
+	color: #1C1C1C;
+}
+.black_font5 {
+	color: #1E1E1E;
+}
+.black_font6 {
+	color: #3E3E3E;
+}
+.black_font7 {
+	color: #3B3B3B;
+}
+.black_font8 {
+	color: #0D0D0D;
+}
+/* 分割线 */
+.border_bot {
+	border-bottom: 1rpx solid #EEEEEE;
+}
+.border_left {
+	border-left: 1rpx solid #EEEEEE;
+}
+.border_top {
+	border-top: 1rpx solid #EEEEEE;
+}
+.border_right {
+	border-right: 1rpx solid #EEEEEE;
+}
+.row_center {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.flex_row {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+/* row_center_between  横向居中两端对齐*/
+.row_center_between {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+/* row_center_around  横向居中around对齐*/
+.row_center_around {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+/* 纵向居中 */
+.column_center {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.flex_column {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.all_center {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+/* 单行多余文本省略 */
+.omit {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+/* 两行多余文本省略 */
+.two_omit {
+	overflow: hidden;
+	display: -webkit-box;
+	word-break: break-all;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+/* 价格带划线 */
+._price {
+	text-decoration: line-through;
+}
+.box_shadow {
+	-webkit-box-shadow: 0 4rpx 8rpx rgba(21, 51, 132, 0.16);
+	        box-shadow: 0 4rpx 8rpx rgba(21, 51, 132, 0.16);
+}
+.shadow {
+	-webkit-box-shadow: 0 6rpx 20rpx 0 rgba(227, 227, 227, 0.6);
+	        box-shadow: 0 6rpx 20rpx 0 rgba(227, 227, 227, 0.6);
+}
+.bold {
+	font-weight: bold;
+}
+/* 字号 */
+.font_9 {
+	font-size: 18rpx;
+}
+.font_10 {
+	font-size: 20rpx;
+}
+.font_12 {
+	font-size: 24rpx;
+}
+.font_13 {
+	font-size: 26rpx;
+}
+.font_15 {
+	font-size: 30rpx;
+}
+.font_16 {
+	font-size: 32rpx;
+}
+.font_17 {
+	font-size: 34rpx;
+}
+.font_18 {
+	font-size: 36rpx;
+}
+.font_20 {
+	font-size: 40rpx;
+}
+.font_22 {
+	font-size: 44rpx;
+}
+/* 提交按钮样式 */
+.sumbit_view {
+	height: 90rpx;
+	background-color: #1B9AEE;
+	-webkit-border-radius: 4rpx;
+	        border-radius: 4rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	color: #fff;
+	font-size: 28rpx;
+}
+/* 按钮样式 */
+.botton_view{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-border-radius: 8rpx;
+	        border-radius: 8rpx;
+	color: #FFFFFF;
+}
+/* 按钮点击样式 */
+.dlbutton {
+	color: #fff;
+	font-size: 30rpx;
+	width: 600rpx;
+	height: 100rpx;
+	background: -webkit-gradient(linear, left top, right top, from(rgba(172, 172, 172, 0.7)), to(rgba(172, 172, 172, 0.6)));
+	background: -webkit-linear-gradient(left, rgba(172, 172, 172, 0.7), rgba(172, 172, 172, 0.6));
+	background: linear-gradient(to right, rgba(172, 172, 172, 0.7), rgba(172, 172, 172, 0.6));
+	-webkit-box-shadow: 0rpx 0rpx 13rpx 0rpx rgba(164, 217, 228, 0.4);
+	        box-shadow: 0rpx 0rpx 13rpx 0rpx rgba(164, 217, 228, 0.4);
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	line-height: 100rpx;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 96rpx;
+}
+.dlbutton_loading {
+	color: #fff;
+	font-size: 30rpx;
+	width: 100rpx;
+	height: 100rpx;
+	/* background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)); */
+	-webkit-box-shadow: 0rpx 0rpx 13rpx 0rpx rgba(164, 217, 228, 0.4);
+	        box-shadow: 0rpx 0rpx 13rpx 0rpx rgba(164, 217, 228, 0.4);
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	line-height: 100rpx;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 96rpx;
+}
+.buttonBorder {
+	border: none;
+	-webkit-border-radius: 2.5rem;
+	        border-radius: 2.5rem;
+	-webkit-box-shadow: 0 0 60rpx 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 60rpx 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 0.4s cubic-bezier(0.57, 0.19, 0.51, 0.95);
+	transition: all 0.4s cubic-bezier(0.57, 0.19, 0.51, 0.95);
+}
+/* 旋转动画 */
+.rotate_loop {
+
+	-webkit-animation: rotate 1s linear infinite;
+
+	        animation: rotate 1s linear infinite;
+}
+@-webkit-keyframes rotate {
+from {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+}
+to {
+		-webkit-transform: rotate(359deg);
+		        transform: rotate(359deg);
+}
+}
+@keyframes rotate {
+from {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+}
+to {
+		-webkit-transform: rotate(359deg);
+		        transform: rotate(359deg);
+}
+}
+page,
+view,
+scroll-view,
+text,
+image,
+textarea,
+button,
+input {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+@font-face {
+	font-family: 'jiangxizhuokai';
+	src: url('https://7863-xc-9418-mgm4q-1304458187.tcb.qcloud.la/font/jiangxizhuokai.TTF?sign=c0c76131a1a0798fec48806c3b3c6da3&t=1607440934') format('truetype');
+	/* src: url('https://renzhan.52xml.cn/jiangxizhuokai.TTF') format('truetype'); */
+}
+page {
+	width: 750rpx;
+	background-color: #000000;
+	font-size: 28rpx;
+	font-family: 'jiangxizhuokai';
+	font-weight: 400;
+	color: #FFFFFF;
+}
+

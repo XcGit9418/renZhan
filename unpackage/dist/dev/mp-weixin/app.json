@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/chaneg_role/chaneg_role",
+    "pages/confirm_role/confirm_role",
+    "pages/change_character/change_character",
+    "pages/home/home",
+    "pages/change_pattern/change_pattern",
+    "pages/matching_success/matching_success",
+    "pages/game_ready/game_ready",
+    "pages/game_conduct/game_conduct",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/Prize_center/Prize_center",
+    "pages/receiverAddress/receiverAddress",
+    "pages/receiverAddress/addAddress/addAddress",
+    "pages/receiverAddress/modify_address/modify_address",
+    "pages/set_up_room/set_up_room",
+    "pages/add_room/add_room"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "仁战",
+    "navigationBarBackgroundColor": "#000000",
+    "backgroundColor": "#000000"
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "usingComponents": {},
+  "sitemapLocation": "sitemap59.json"
+}

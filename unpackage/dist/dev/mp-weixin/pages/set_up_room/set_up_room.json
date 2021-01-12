@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "set-view": "/components/set-up-view/set-up-view"
+  }
+}

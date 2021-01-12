@@ -1,0 +1,29 @@
+
+page{
+		width: 600rpx;
+		margin: 0 auto;
+}
+.men_item{
+		width: 600rpx;
+		position: absolute;
+/* 		height: 560rpx;
+		opacity: 1;
+		border-radius: 40rpx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-size: 100%;
+		background-repeat: no-repeat; */
+}
+	
+	/* 	.men_font{
+		font-size: 166rpx;
+		font-family: jiangxizhuokai;
+		font-weight: 400;
+		line-height: 108px;
+		color: #000000;
+		opacity: 1;
+
+	} */
+
+
